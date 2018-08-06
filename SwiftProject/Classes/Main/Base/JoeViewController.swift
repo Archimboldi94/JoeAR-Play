@@ -8,8 +8,8 @@
 
 import UIKit
 import RxSwift
-import RxCocoa
-import RxGesture
+//import RxCocoa
+//import RxGesture
 
 class JoeViewController: UIViewController {
     
@@ -18,8 +18,7 @@ class JoeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        isHeroEnabled = true
-        
+        //isHeroEnabled = true
         view.backgroundColor = UIColor.background
         if #available(iOS 11.0, *) {
             UIScrollView.appearance().contentInsetAdjustmentBehavior = .never
@@ -80,5 +79,10 @@ class JoeViewController: UIViewController {
         return aScroollView
     }()
     
+    
+    
+    deinit {
+        uLog("控制器销毁了")
+    }
 }
 

@@ -11,7 +11,7 @@ import Foundation
 import Photos
 import Toast_Swift
 import SwiftyJSON
-import HandyJSON
+//import HandyJSON
 
 // MARK: -  设置toast
 func oneToast(message: String?)  -> () {

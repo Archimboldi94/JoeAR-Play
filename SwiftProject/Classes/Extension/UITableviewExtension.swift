@@ -8,15 +8,15 @@
 
 import Foundation
 import UIKit
-import EmptyDataSet_Swift
+//import EmptyDataSet_Swift
 
-extension UITableView: EmptyDataSetSource, EmptyDataSetDelegate {
+extension UITableView{
      
     
     override open var frame:CGRect{
         didSet {
-            self.emptyDataSetSource = self
-            self.emptyDataSetDelegate = self
+            //self.emptyDataSetSource = self
+            //self.emptyDataSetDelegate = self
         }
     }
 

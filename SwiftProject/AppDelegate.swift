@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import IQKeyboardManagerSwift
+//import IQKeyboardManagerSwift
 
 
 @UIApplicationMain
@@ -33,15 +33,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //window?.rootViewController = vc
         //window?.makeKeyAndVisible()
         
-        configIQKeyboardManager()
+//        configIQKeyboardManager()
         
         return true
     }
     
-    func configIQKeyboardManager(){
-        IQKeyboardManager.sharedManager().toolbarDoneBarButtonItemText = "完成"
-        IQKeyboardManager.sharedManager().enable = true
-    }
+//    func configIQKeyboardManager(){
+//        IQKeyboardManager.sharedManager().toolbarDoneBarButtonItemText = "完成"
+//        IQKeyboardManager.sharedManager().enable = true
+//    }
 
   
 }

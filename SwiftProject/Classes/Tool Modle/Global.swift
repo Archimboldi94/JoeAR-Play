@@ -9,24 +9,24 @@
 import UIKit
 import Foundation
 import RxSwift
-import RxCocoa
-import RxGesture
-import RxDataSources
-import Kingfisher
+//import RxCocoa
+//import RxGesture
+//import RxDataSources
+//import Kingfisher
 import SnapKit
-import SkeletonView
-import Then
-import XLPagerTabStrip//分页
-import SKPhotoBrowser//图片浏览器
+//import SkeletonView
+//import Then
+//import XLPagerTabStrip//分页
+//import SKPhotoBrowser//图片浏览器
  
 
 //class KObservable: Observable<Any> {}
 
-class XLButtonBarPagerTabStripViewController: ButtonBarPagerTabStripViewController {}
+//class XLButtonBarPagerTabStripViewController: ButtonBarPagerTabStripViewController {}
 
 extension UIColor {
     class var background: UIColor {
-        return UIColor(red:242, green:242, blue:242, alpha:1.00)
+        return UIColor(red:0.96, green:0.96, blue:0.96, alpha:1.00)
     }
     
     class var theme: UIColor {
@@ -100,25 +100,25 @@ func uLog<T>(_ message: T, file: String = #file, function: String = #function, l
 }
 
 //MARK: Kingfisher
- 
-extension Kingfisher where Base: ImageView {
-    @discardableResult
-    public func setImage(urlString: String?, placeholder: Placeholder? = UIImage(named: "jiake")) -> RetrieveImageTask {
-        return setImage(with: URL(string: urlString ?? ""),
-                        placeholder: placeholder,
-                        options:[.transition(.fade(0.5))])
-    }
-}
-
-extension Kingfisher where Base: UIButton {
-    @discardableResult
-    public func setImage(urlString: String?, for state: UIControlState, placeholder: UIImage? = UIImage(named: "normal_placeholder_h")) -> RetrieveImageTask {
-        return setImage(with: URL(string: urlString ?? ""),
-                        for: state,
-                        placeholder: placeholder,
-                        options: [.transition(.fade(0.5))])
-    }
-}
+// 
+//extension Kingfisher where Base: ImageView {
+//    @discardableResult
+//    public func setImage(urlString: String?, placeholder: Placeholder? = UIImage(named: "jiake")) -> RetrieveImageTask {
+//        return setImage(with: URL(string: urlString ?? ""),
+//                        placeholder: placeholder,
+//                        options:[.transition(.fade(0.5))])
+//    }
+//}
+//
+//extension Kingfisher where Base: UIButton {
+//    @discardableResult
+//    public func setImage(urlString: String?, for state: UIControlState, placeholder: UIImage? = UIImage(named: "normal_placeholder_h")) -> RetrieveImageTask {
+//        return setImage(with: URL(string: urlString ?? ""),
+//                        for: state,
+//                        placeholder: placeholder,
+//                        options: [.transition(.fade(0.5))])
+//    }
+//}
 //MARK: SnapKit
 extension ConstraintView {
     

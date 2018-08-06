@@ -23,29 +23,29 @@ class KJTabBarConteoller: UITabBarController {
         
 //        tabBar.isTranslucent = false
          
-        let homeVC = RootVC1()
-        addChildViewController(homeVC,
-                               title: "首页",
-                               image: UIImage(named: "tab_mine"),
-                               selectedImage: UIImage(named: "tab_mine_S"))
-
-        let discoverVC = RootVC2()
-        addChildViewController(discoverVC,
-                               title: "发现",
-                               image: UIImage(named: "tab_mine"),
-                               selectedImage: UIImage(named: "tab_mine_S"))
-        
-        let messageVC = RootVC3()
-        addChildViewController(messageVC,
-                               title: "消息",
-                               image: UIImage(named: "tab_mine"),
-                               selectedImage: UIImage(named: "tab_mine_S"))
-        
-        let mineVC = RootVC4()
-        addChildViewController(mineVC,
-                               title: "我的",
-                               image: UIImage(named: "tab_mine"),
-                               selectedImage: UIImage(named: "tab_mine_S"))
+//        let homeVC = RootVC1()
+//        addChildViewController(homeVC,
+//                               title: "首页",
+//                               image: UIImage(named: "tab_mine"),
+//                               selectedImage: UIImage(named: "tab_mine_S"))
+//
+//        let discoverVC = RootVC2()
+//        addChildViewController(discoverVC,
+//                               title: "发现",
+//                               image: UIImage(named: "tab_mine"),
+//                               selectedImage: UIImage(named: "tab_mine_S"))
+//        
+//        let messageVC = RootVC3()
+//        addChildViewController(messageVC,
+//                               title: "消息",
+//                               image: UIImage(named: "tab_mine"),
+//                               selectedImage: UIImage(named: "tab_mine_S"))
+//        
+//        let mineVC = RootVC4()
+//        addChildViewController(mineVC,
+//                               title: "我的",
+//                               image: UIImage(named: "tab_mine"),
+//                               selectedImage: UIImage(named: "tab_mine_S"))
         
  
     }

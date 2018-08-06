@@ -8,8 +8,8 @@
 
 import UIKit
 import RxSwift
-import RxCocoa
-import RxGesture
+//import RxCocoa
+//import RxGesture
 
 class UBaseViewController: UIViewController {
     
@@ -22,7 +22,7 @@ class UBaseViewController: UIViewController {
          
         //push时会导致tabbar停顿一下 最好哪里用到那里加
         //navigationController?.isHeroEnabled = true
-        isHeroEnabled = true
+        //isHeroEnabled = true
         
         view.backgroundColor = UIColor.background
         if #available(iOS 11.0, *) {

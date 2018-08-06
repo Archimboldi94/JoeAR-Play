@@ -8,14 +8,14 @@
 
 
 import UIKit
-import Hero
+//import Hero
 
 class UNavigationController: UINavigationController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationController?.isHeroEnabled = true
+        //navigationController?.isHeroEnabled = true
         
         guard let interactionGes = interactivePopGestureRecognizer else { return }
         guard let targetView = interactionGes.view else { return }

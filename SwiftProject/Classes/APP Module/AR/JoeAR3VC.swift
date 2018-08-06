@@ -44,6 +44,8 @@ class JoeAR3VC: JoeViewController {
         setUpSceneView()
         
         configureLighting()
+        
+        addSwipeGesturesToSceneView()
         // Do any additional setup after loading the view.
     }
     

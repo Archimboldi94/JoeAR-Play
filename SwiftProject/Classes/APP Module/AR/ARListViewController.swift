@@ -29,7 +29,7 @@ class ARListViewController: JoeViewController {
         
     }
   
-    let theTitleArr : [String] = ["图片盒子,飞机,车", "平面,船", "火箭,物理系统"]
+    let theTitleArr : [String] = ["图片盒子,飞机,车", "平面,船", "火箭,物理系统", "车,动画", "太阳系,旋转", "斯嘉丽,图片识别", "环,视频", "网页", "P5"]
     
     lazy var tableView: UITableView = {
         let tw = UITableView(frame: .zero, style: .plain)
@@ -73,6 +73,18 @@ extension ARListViewController: UITableViewDelegate,UITableViewDataSource{
             navigationController?.pushViewController(JoeAR2VC(), animated: true)
         case 2:
             navigationController?.pushViewController(JoeAR3VC(), animated: true)
+        case 3:
+            navigationController?.pushViewController(JoeAR4VC(), animated: true)
+        case 4:
+            navigationController?.pushViewController(JoeAR5VC(), animated: true)
+        case 5:
+            navigationController?.pushViewController(JoeAR6VC(), animated: true)
+        case 6:
+            navigationController?.pushViewController(JoeAR7VC(), animated: true)
+        case 7:
+            navigationController?.pushViewController(JoeAR8VC(), animated: true)
+        case 8:
+            navigationController?.pushViewController(JoeP5VC(), animated: true)
             
         default: break
             
